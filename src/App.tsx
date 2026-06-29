@@ -5,7 +5,7 @@ function App() {
     <>
       <section className="contentpage">
         <div>
-          <img className="logo" src="\public\Logo.svg"></img>
+          <img className="logo" src="/Logo.svg"></img>
           <h1 className="title"> Interested in our business pricing? </h1>
           <h2 className="subtitle"> Fill out the form to view details and we’ll contact you as soon as possible. </h2>
         </div>
