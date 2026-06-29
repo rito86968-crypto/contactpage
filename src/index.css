@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Sora&display=swap');
+
+body {
+  background-image: url("\public\background@2x.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+
+h1 {
+  font-size: 4rem;
+  font-family: "Be Vietnam Pro", sans-serif;
+  color: #ffff;
+  padding: 0 450px;
+  text-align: center;
+}
+
+h2 {
+  font-size: 2rem;
+  font-family: "Be Vietnam Pro", sans-serif;
+  color: #ffff;
+  font-weight: normal;
+  padding: 0 500px;
+  text-align: center;
+}
+
+h4 {
+  width: 50%;
+  color: #ffff;
+  font-family: "Be Vietnam Pro", sans-serif;
+  font-weight: normal;
+  margin: 0;
+  font-size: 0.875rem;
+}
+
+.contentpage {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 20px 100px 80px 100px;
+}
+
+.logo {
+  margin-right: auto;
+}
+
+.title {
+  margin: 15px 50px 16px 50px;
+}
+
+.subtitle {
+  margin-bottom: 72px;
+  margin-top: auto;
+}
+
+.info {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  background-color: #9459B9;
+  border-radius: 32px;
+  width: 746px;
+  padding: 32px;
+}
+
+.info1,
+.info3 {
+  gap: 18px;
+  display: flex;
+}
+
+.cs,
+.subject,
+.name,
+.email {
+  border-radius: 18px 24px 18px 24px;
+  margin-top: 4px;
+  margin-bottom: 24px;
+  background-color: #ffff;
+  width: 50%;
+  padding: 24px 0 24px 18px;
+  border: none;
+}
+
+.info2,
+.info4 {
+  gap: 18px;
+  display: flex;
+}
+
+.info5 {
+  border-radius: 18px 24px 18px 24px;
+  margin-top: 6px;
+  margin-bottom: 24px;
+  background-color: #ffff;
+  width: auto;
+  padding: 24px 0 24px 18px;
+  border: none;
+  height: 150px;
+}
+
+.message {
+  display: flex;
+  flex-direction: column;
+}
+
+.button {
+  border-radius: 18px 24px 18px 24px;
+  background-color: #ffff;
+  width: auto;
+  padding: 24px 0 24px 18px;
+  border: none;
+  text-align: center;
+}
+
+.buttonText {
+  color: #3F36A9;
+  font-family: "Be Vietnam Pro", sans-serif;
+  font-size: 1.25rem;
+  font-weight: 600;
+}
+
+input,
+select,
+button,
+textarea {
+  border: none;
+  outline: none;
+  background: transparent;
+}
+
+.selectContainer {
+  position: relative;
+  width: 90%;
+}
+
+.selectContainer select {
+  width: 100%;
+  padding: 24px 50px 24px 18px;
+  border: none;
+  border-radius: 18px 24px 18px 24px;
+  appearance: none;
+  background: #fff;
+}
+
+.selectCSontainer img {
+  position: absolute;
+  right: 18px;
+  top: 50%;
+  transform: translateY(-50%);
+  pointer-events: none;
+}
