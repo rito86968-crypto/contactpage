@@ -16,10 +16,10 @@ function App() {
           </div>
           <div className="info2">
             <div className="name">
-              <input type="text" placeholder='Ethan Johnson' />
+              <input style={{ color: "#CDD5E0", fontWeight: "600" }} type="text" placeholder='Ethan Johnson' />
             </div>
             <div className="email">
-              <input type="email" placeholder="ethan@johnson.com" />
+              <input style={{ color: "#CDD5E0", fontWeight: "600" }} type="email" placeholder="ethan@johnson.com" />
             </div>
           </div>
           <div className="info3">
